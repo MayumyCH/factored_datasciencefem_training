@@ -1,4 +1,4 @@
-![Portada](https://raw.githubusercontent.com/MayumyCH/factored_datasciencefem_training/main/resources/portada.png)
+![Portada](https://raw.githubusercontent.com/MayumyCH/factored_datasciencefem_training/main/resources/portadaDSFEM.png)
 
 _Repositorio construido para almacenar los recursos compartidos por Factored durante el ultimo training del año (#DataChallenge365FEM 2020-2021)._
 
@@ -12,10 +12,10 @@ Desde **importar** y **analizar** datos; **desarrollar** y **evaluar modelos** p
 ## 🔗 Link importantes 
 
 1. [Link del gitbook del training](https://datasciencefem.gitbook.io/factored/)
-2. [Link de la data "New York City Taxi Trip Duration"](https://www.kaggle.com/c/nyc-taxi-trip-duration)
-3. [Notebook 1ra sesión 09/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/notebook_training.ipynb)
-4. [Repositorio base del training](https://github.com/danielasaavedral/Workshop1_data_science_fem)
-
+2. [Link del playlist de los encuentros (Youtube)](https://datasciencefem.gitbook.io/factored/)
+3. [Link de la data "New York City Taxi Trip Duration"](https://www.kaggle.com/c/nyc-taxi-trip-duration)
+4. [Notebook 1ra sesión 09/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/notebook_training.ipynb)
+5. [Repositorio base del training](https://github.com/danielasaavedral/Workshop1_data_science_fem)
 
 ## 📌 Secciones
 Seccion #1 || 09 de Octubre 2021
