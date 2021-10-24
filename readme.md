@@ -27,45 +27,44 @@ Desde **IMPORTAR** y **ANALIZAR** datos; **DESARROLLAR** y **EVALUAR MODELOS** p
 ## 📌 Secciones
 ### Seccion #1 || 09 de Octubre 2021 || [Notebook](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/1.%20notebook_Git_Github_AnalisisDatos.ipynb)
 
-Gráficas y Storytelling 💬
+    Gráficas y Storytelling 💬
 
-Flujo de trabajo colaborativo en GitHub 🐱🐙
-- Crear un repositorio
-- Cómo crear una rama
-- Hacer y registrar cambios
-- Cómo crear un Pull Request
+    Flujo de trabajo colaborativo en GitHub 🐱🐙
+    - Crear un repositorio
+    - Cómo crear una rama
+    - Hacer y registrar cambios
+    - Cómo crear un Pull Request
 
-Importación y Manejo de datos con pandas.
-- Carga de datasets desde un `bucket de S3 (AWS)`
-- Procesamiento con pandas 
+    Importación y Manejo de datos con pandas.
+    - Carga de datasets desde un `bucket de S3 (AWS)`
+    - Procesamiento con pandas 
 
-Visualizar datos con `matplotlib` y `seaborn`.🤓 🔍
-- Diferentes tipos de gráficos.
-- Cómo manejar formatos de gráficas con axes y figures.
+    Visualizar datos con `matplotlib` y `seaborn`.🤓 🔍
+    - Diferentes tipos de gráficos.
+    - Cómo manejar formatos de gráficas con axes y figures.
  
 
 ### Seccion #2 || 16 de Octubre 2021 || [Notebook](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/2.%20notebook_pipelines_mlflow.ipynb)
 
-Flujos de preprocesamiento en `scikit-learn`:
-- Cómo escribir transformaciones personalizadas.
-- Cómo aplicar transformaciones de datos a ciertas variables con `ColumnTransformer`.
-- Cómo usar `Pipeline` y `FeatureUnion` para unir diferentes transformaciones.
+    Flujos de preprocesamiento en `scikit-learn`:
+    - Cómo escribir transformaciones personalizadas.
+    - Cómo aplicar transformaciones de datos a ciertas variables con `ColumnTransformer`.
+    - Cómo usar `Pipeline` y `FeatureUnion` para unir diferentes transformaciones.
 
-MLflow con modelos de scikit-learn:
-- Cómo usar la API de scikit-learn para entrenar modelos.
-- Cómo usar `MLflow` para guardar experimentos con modelos de scikit-learn. 
+    MLflow con modelos de scikit-learn:
+    - Cómo usar la API de scikit-learn para entrenar modelos.
+    - Cómo usar `MLflow` para guardar experimentos con modelos de scikit-learn. 
 
 
 ### Seccion #3 || 23 de Octubre 2021 || [Api]() || [DockerFile]()
 
-Escribir una `API` de un modelo usando `FastAPI`. 
-- Generación de endpoints.
-- Correr aplicación localmente y probar con datos de entrada.
+    Escribir una `API` de un modelo usando `FastAPI`. 
+    - Generación de endpoints.
+    - Correr aplicación localmente y probar con datos de entrada.
 
-Construir un contenedor de Docker para desplegar API.
-- Cómo escribir un `Dockerfile`.
-- Cómo crear y correr `Docker containers`.
-
+    Construir un contenedor de Docker para desplegar API.
+    - Cómo escribir un `Dockerfile`.
+    - Cómo crear y correr `Docker containers`.
 
 ## 💻 Entrenadores 
 ![Entrenadores](https://raw.githubusercontent.com/MayumyCH/factored_datasciencefem_training/main/resources/entrenadores.png)
