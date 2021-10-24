@@ -15,14 +15,17 @@ Desde **IMPORTAR** y **ANALIZAR** datos; **DESARROLLAR** y **EVALUAR MODELOS** p
 2. [Link del playlist de los encuentros (Youtube)](https://www.youtube.com/watch?v=IfQh2kZl7D0&list=PL5NCnKCR1ONIh2BwI17fDwm3cm02HcMC4)
 3. [Link de la data del training "New York City Taxi Trip Duration"](https://www.kaggle.com/c/nyc-taxi-trip-duration/data)
 ---
-- [Notebook 1ra sesión 09/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/1.%20notebook_Git_Github_AnalisisDatos.ipynb)
-- [Notebook 2da sesión 16/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/2.%20notebook_pipelines_mlflow.ipynb)
+---
+- [Notebook - 1ra sesión 09/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/1.%20notebook_Git_Github_AnalisisDatos.ipynb)
+- [Notebook - 2da sesión 16/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/2.%20notebook_pipelines_mlflow.ipynb)
 
-- [Archivos de la 3ra sesión 23/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/2.%20notebook_pipelines_mlflow.ipynb)
+- [Api - 3ra sesión 23/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/despliegue/main.py)
+
+- [Dockerfile - 3ra sesión 23/10/21]()
 
 
 ## 📌 Secciones
-[Seccion #1 || 09 de Octubre 2021](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/1.%20notebook_Git_Github_AnalisisDatos.ipynb)
+### Seccion #1 || 09 de Octubre 2021 || [Notebook](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/1.%20notebook_Git_Github_AnalisisDatos.ipynb)
 
 Gráficas y Storytelling 💬
 
@@ -41,7 +44,7 @@ Visualizar datos con `matplotlib` y `seaborn`.🤓 🔍
 - Cómo manejar formatos de gráficas con axes y figures.
  
 
-[Seccion #2 || 16 de Octubre 2021](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/2.%20notebook_pipelines_mlflow.ipynb)
+### Seccion #2 || 16 de Octubre 2021 || [Notebook](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/2.%20notebook_pipelines_mlflow.ipynb)
 
 Flujos de preprocesamiento en `scikit-learn`:
 - Cómo escribir transformaciones personalizadas.
@@ -53,7 +56,7 @@ MLflow con modelos de scikit-learn:
 - Cómo usar `MLflow` para guardar experimentos con modelos de scikit-learn. 
 
 
-[Seccion #3 || 23 de Octubre 2021]()
+### Seccion #3 || 23 de Octubre 2021 || [Api]() || [DockerFile]()
 
 Escribir una `API` de un modelo usando `FastAPI`. 
 - Generación de endpoints.
@@ -62,7 +65,6 @@ Escribir una `API` de un modelo usando `FastAPI`.
 Construir un contenedor de Docker para desplegar API.
 - Cómo escribir un `Dockerfile`.
 - Cómo crear y correr `Docker containers`.
-
 
 
 ## 💻 Entrenadores 
