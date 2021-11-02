@@ -15,18 +15,8 @@ Desde **IMPORTAR** y **ANALIZAR** datos; **DESARROLLAR** y **EVALUAR MODELOS** p
 1. [Link del gitbook del training](https://datasciencefem.gitbook.io/factored/)
 2. [Link del video del training](https://www.youtube.com/watch?v=IfQh2kZl7D0&list=PL5NCnKCR1ONIh2BwI17fDwm3cm02HcMC4)
 3. [Link de la data del training "New York City Taxi Trip Duration"](https://www.kaggle.com/c/nyc-taxi-trip-duration/data)
----
----
-- [Notebook - 1ra sesión 09/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/1.%20notebook_Git_Github_AnalisisDatos.ipynb)
-- [Notebook - 2da sesión 16/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/2.%20notebook_pipelines_mlflow.ipynb)
 
-- [Api - 3ra sesión 23/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/despliegue/main.py)
-
-- [Dockerfile - 3ra sesión 23/10/21]()
-<br>
-<br>
 ## 📌 Secciones
-<br>
 
 ### **SECCION  #1 || 09 de Octubre 2021**
 **Recurso** : 
@@ -87,3 +77,5 @@ Desde **IMPORTAR** y **ANALIZAR** datos; **DESARROLLAR** y **EVALUAR MODELOS** p
 
 ## 💻 Entrenadores 
 ![Entrenadores](https://raw.githubusercontent.com/MayumyCH/factored_datasciencefem_training/main/resources/entrenadores.png)
+
+## Gracias totales a [Data Science Fem](https://github.com/datasciencefem) 💜 y a  [Factored AI](https://github.com/factoredai) 🚀 
