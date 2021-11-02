@@ -1,2 +1,3 @@
 # Ignore mlruns folder
 mlruns
+__pycache__

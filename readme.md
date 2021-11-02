@@ -7,12 +7,13 @@ _Repositorio construido para almacenar los recursos compartidos por Factored dur
 ## 🔥 Meta del training
 Darte una guía de como sería un desarrollo básico de un modelo de machine learning. 
 
-Desde **IMPORTAR** y **ANALIZAR** datos; **DESARROLLAR** y **EVALUAR MODELOS** predictivos; **HASTA** realizar el **DEPLOYMENT DE**  una **API** usando FastAPI y Docker.
+Desde **IMPORTAR** y **ANALIZAR** datos; **DESARROLLAR** y **EVALUAR MODELOS** predictivos; **HASTA** realizar el **DEPLOYMENT DE**  una **API** usando `FastAPI` y `Docker`.
 
 ## 🔗 Link importantes 
+<br>
 
 1. [Link del gitbook del training](https://datasciencefem.gitbook.io/factored/)
-2. [Link del playlist de los encuentros (Youtube)](https://www.youtube.com/watch?v=IfQh2kZl7D0&list=PL5NCnKCR1ONIh2BwI17fDwm3cm02HcMC4)
+2. [Link del video del training](https://www.youtube.com/watch?v=IfQh2kZl7D0&list=PL5NCnKCR1ONIh2BwI17fDwm3cm02HcMC4)
 3. [Link de la data del training "New York City Taxi Trip Duration"](https://www.kaggle.com/c/nyc-taxi-trip-duration/data)
 ---
 ---
@@ -22,10 +23,16 @@ Desde **IMPORTAR** y **ANALIZAR** datos; **DESARROLLAR** y **EVALUAR MODELOS** p
 - [Api - 3ra sesión 23/10/21](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/despliegue/main.py)
 
 - [Dockerfile - 3ra sesión 23/10/21]()
-
-
+<br>
+<br>
 ## 📌 Secciones
-### Seccion #1 || 09 de Octubre 2021 || [Notebook](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/1.%20notebook_Git_Github_AnalisisDatos.ipynb)
+<br>
+
+### **SECCION  #1 || 09 de Octubre 2021**
+**Recurso** : 
+- [Notebook realizado](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/1.%20notebook_Git_Github_AnalisisDatos.ipynb)
+
+**Temario**:
 
     Gráficas y Storytelling 💬
 
@@ -44,7 +51,12 @@ Desde **IMPORTAR** y **ANALIZAR** datos; **DESARROLLAR** y **EVALUAR MODELOS** p
     - Cómo manejar formatos de gráficas con axes y figures.
  
 
-### Seccion #2 || 16 de Octubre 2021 || [Notebook](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/2.%20notebook_pipelines_mlflow.ipynb)
+### **SECCION #2 || 16 de Octubre 2021**
+
+**Recurso** : 
+- [Notebook realizado](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/2.%20notebook_pipelines_mlflow.ipynb)
+
+**Temario**:
 
     Flujos de preprocesamiento en `scikit-learn`:
     - Cómo escribir transformaciones personalizadas.
@@ -56,7 +68,14 @@ Desde **IMPORTAR** y **ANALIZAR** datos; **DESARROLLAR** y **EVALUAR MODELOS** p
     - Cómo usar `MLflow` para guardar experimentos con modelos de scikit-learn. 
 
 
-### Seccion #3 || 23 de Octubre 2021 || [Api]() || [DockerFile]()
+### **SECCION #3 || 23 de Octubre 2021**
+
+**Recurso** : 
+- [Api](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/despliegue/main.py) 
+- [DockerFile](https://github.com/MayumyCH/factored_datasciencefem_training/blob/main/despliegue/Dockerfile)
+- [Carpeta con los archivos que se utilizaron](https://github.com/MayumyCH/factored_datasciencefem_training/tree/main/despliegue)
+
+**Temario**:
 
     Escribir una `API` de un modelo usando `FastAPI`. 
     - Generación de endpoints.
