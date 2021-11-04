@@ -15,6 +15,7 @@ Desde **IMPORTAR** y **ANALIZAR** datos; **DESARROLLAR** y **EVALUAR MODELOS** p
 1. [Link del gitbook del training](https://datasciencefem.gitbook.io/factored/)
 2. [Link del video del training](https://www.youtube.com/watch?v=IfQh2kZl7D0&list=PL5NCnKCR1ONIh2BwI17fDwm3cm02HcMC4)
 3. [Link de la data del training "New York City Taxi Trip Duration"](https://www.kaggle.com/c/nyc-taxi-trip-duration/data)
+4. [Comandos basicos de Docker](https://gist.github.com/MayumyCH/138bd283d1b4cd586132cfef3b6c8808)
 
 ## 📌 Secciones
 
