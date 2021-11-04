@@ -1,16 +1,17 @@
 import numpy as np
 import pandas as pd
-import dill
+
+# dill: Extiende el módulo pickle de Python para serializar y deserializar objetos
+import dill 
+from io import BytesIO
 
 # LIBRERIAS PARA API
 from fastapi import FastAPI, File
 from fastapi.responses import JSONResponse, StreamingResponse
-from pydantic import BaseModel
+from pydantic import BaseModel # Para trabajar con clase
 from transformers import TransformerFechas, TransformerDistancia, TransformerVelocidad
 
-from io import BytesIO
-
-# TITULO DEL API : TAXI TRIPS DURATION PREDICTOR
+# CREACION Y TITULO DEL API : TAXI TRIPS DURATION PREDICTOR
 app = FastAPI(title="Taxi Trips Duration Predictor")
 
 # IMPORTAR EL PREPROCESADOR Y EL MODELO
@@ -92,14 +93,20 @@ def get_funct(
 
 if __name__ == "__main__":
     import uvicorn
+
     # For local development:
-    uvicorn.run("main:app", port=3000, reload=True)
+    # Para correr la aplicación en desarrollo local:
+    #uvicorn.run("main:app", port=3000, reload=True)
+    
     # RELOAD=TRUE 
     # > PERMITE QUE CADA VEZ QUE SE GUARDE EL ARCHIVO MAIN.PY
     # > LA API SE ACTUALICE AUTOMÁTICAMENTE
 
-# SEGUNDO ENDPOINT: POST ENDPOINT
+    # for docker deployment:
+    uvicorn.run("main:app", host="0.0.0.0", port=80)
 
+
+# SEGUNDO ENDPOINT: POST ENDPOINT
 class TaxiTrip(BaseModel):
     vendor_id: int
     pickup_datetime: str
@@ -254,3 +261,13 @@ def post_file(file: bytes = File(...)):
         media_type="text/csv",
         headers={"Content-Disposition": 'attachment;filename="prediction.csv"'},
     )
+
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
